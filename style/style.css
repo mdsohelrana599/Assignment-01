@@ -9,10 +9,15 @@
       color: #FFFFFF;
       background-color: #4E47FF;
       font-weight: 400;
-      font-size: 15px;
+      font-size: 20px;
       padding: 15px 35px;
       border-radius: 5px;
       border: none;
+}
+.btn-primary:hover{
+  background-color: #FFFFFF;
+  color: #4E47FF;
+  border: 2px solid #4E47FF;
 }
 
 /* nav style */
@@ -25,7 +30,7 @@ nav{
 .nav-title{
     font-weight: 800;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
     color: #4E47FF;
 }
 .header{
@@ -46,19 +51,71 @@ nav{
 
 /* Action */
 .action{
-   display: flex;
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    margin: 0 35px 0 200px;
-    padding: 100px 100px;
-    text-align: center;
+    padding: 120px 220px;
 }
 .action-content{
-    max-width: 580px;
-    margin: 230px 297px;
-
+    justify-content: center;
+    
+}
+.action-greeting{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+.action-text{
+    font-size: 24px;
+    color: #757575;
+   
 }
 .action--profile-pic{
      width: 400px;
      border-radius: 48px;
      
+}
+
+/* Productive */
+.stats-container {
+  background-color: #e9e9f6;
+  border-radius: 24px;
+  padding: 80px 50px;
+  max-width: 800px;
+  margin: 60px auto;
+  text-align: center;
+}
+
+.stats-container h2 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #1a1a1a;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-number {
+ margin-bottom: 20px;
+  font-size: 80px;
+  font-weight: bold;
+  color: #4f46e5;
+}
+
+.stat-label {
+ 
+  font-size: 20px;
+  color: #000000;
 }
