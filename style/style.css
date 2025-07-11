@@ -133,7 +133,7 @@ nav{
  
 .testimonials {
   text-align: center;
-  padding: 50px 20px;
+  /* padding: 50px 20px; */
 }
 
 .testimonials h2 {
@@ -195,6 +195,7 @@ nav{
 }
 
 /* Form Section */
+
 .contact-container {
   justify-content: space-around;
   display: flex;
